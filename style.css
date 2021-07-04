@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+.proj-container {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 40px;
+}
+
+main {
+  padding-top: 30px;
+  width: 937px;
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+section {
+  padding-top: 30px;
+  width: 468px;
+  height: 600px;
+  width: 40%;
+}
+
+h1,
+.description {
+  text-align: center;
+}
+
+h1 {
+  padding-left: 68.39px;
+  font-weight: 400;
+  font-size: 80px;
+}
+
+.how {
+  color: #ca7a30;
+}
+
+.make {
+  color: #a0832c;
+}
+
+.description {
+  padding-left: 82.68px;
+  margin-bottom: 39.85px;
+}
+
+article ol {
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+article ol li {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+  margin-left: 2em;
+  padding-top: 20px;
+}
+
+.description-img {
+  width: 300px;
+  height: 180px;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.gif-container {
+  margin-top: 30px;
+}
+
+section img {
+  width: 400px;
+  height: 300px;
+  top: 0px;
+}
+
+section .ingredients-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  border: 0.1px solid rgb(194, 189, 189);
+  padding: 20px 0px 40px 0px;
+  border-radius: 20px;
+  background-image: url("https://image.freepik.com/free-vector/wave-textures-white-background-vector_53876-60286.jpg");
+  width: 80%;
+}
+
+section .ingredients-container h3 {
+  color: rgb(10, 10, 10);
+  font-size: 30px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+
+section .ingredients-container ul li {
+  margin-left: 4em;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 2px;
+  padding-top: 10px;
+}
